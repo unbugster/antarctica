@@ -29,6 +29,11 @@ body {
     margin-bottom: 190px;
     padding-top: 35px;
 }
+
+.logo__img {
+    width: 70px;
+    height: 38px;
+}
 .menu__list {
     display: flex;
     justify-content: space-between;
@@ -94,7 +99,18 @@ body {
 .footer__logo {
     margin-right: 40px;
 }
-
+.logo__img-facebook {
+    width: 11px;
+    height: 20px;
+}
+.logo__img-instagram {
+    width: 20px;
+    height: 20px;
+}
+.logo__img-twitter {
+    width: 20px;
+    height: 16px;
+}
 .social {
     display: flex;
     align-items: center;
@@ -125,7 +141,7 @@ body {
     font-size: 28px;
     font-weight: 600;
 
-    lign-height: 150%;
+    align-height: 150%;
 }
 .promo__description {
     margin-top: -20px;
