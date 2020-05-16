@@ -35,10 +35,11 @@
                     </ul>
                 </nav>
             </div>
-        </div>
-        <div class="header__content">
-            <h1 class="header__title">Круизы в Антарктику </h1>
-            <p class="header__text">Волшебный мир айсбергов и пингвинов</p>
+
+            <div class="header__content">
+                <h1 class="header__title">Круизы в Антарктику </h1>
+                <p class="header__text">Волшебный мир айсбергов и пингвинов</p>
+            </div>
         </div>
     </header>
 
@@ -69,15 +70,15 @@
 
                 <ul class="advantages__items">
                     <li class="advantages__item">
-                        <div class="advantages__img-container"><img class="advantages__item-img boat-img" class
-                                src="/img/boat.png" alt="Корабль"></div>
+                        <div class="advantages__img-container">
+                            <img class="advantages__item-img boat-img" class src="/img/boat.png" alt="Корабль"></div>
                         <h3 class="advantages__item-title">Небольшой круизный лайнер</h3>
                         <p class="advantages__item-text">Круизный лайнер, рассчитанный всего лишь на 300 гостей,
                             поможет избежать шума и очередей и даст возможность насладиться видами и природой.</p>
                     </li>
                     <li class="advantages__item">
-                        <div class="advantages__img-container"><img class="advantages__item-img ticks-img" class
-                                src="/img/ticks.png" alt="Галочки"></div>
+                        <div class="advantages__img-container">
+                            <img class="advantages__item-img ticks-img" class src="/img/ticks.png" alt="Галочки"></div>
                         <h3 class="advantages__item-title">Система все включено</h3>
                         <p class="advantages__item-text">Все наши круизы работают
                             по&nbsp;системе“Все Включено”. Великолепные блюда и безлимитный бар доступны для
@@ -300,14 +301,45 @@
                 <div class="reservation__content-text">
                     <h2 class="reservation__text-title">Раннее бронирование</h2>
                     <p>Забронируйте тур за 3-6 месяцев
-                        до даты выезда и сэкономьте до 50%</p>
+                        до&nbsp;даты выезда и сэкономьте до 50%</p>
                 </div>
                 <div class="reservation__content-form">
                     <p class="form-title">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+                    <input type="text" name="name" placeholder="Валерия" autofocus>
+                    <input type="tel" name="tel" required pattern="8{1}[0-9]{10}" placeholder="89236889975">
+                    <input type="email" name="email" placeholder="grishaewa.lera@gmail.com">
+                    <label class="checkbox"><input type="checkbox" name="confirm" checked>Я согласен на
+                        обработку моих персональных данных</label>
+
+                    <input type="submit" value="Оставить заявку">
+
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__content">
+                <div class="contacts__map">
+                    <img class="contacts__map-marker contacts__map-marker_fixed" src="/img/location.png"
+                        alt="метка на карте">
+                </div>
+                <div class="contacts__text">
+                    <div class="contacts__text-title">У вас ещё остались вопросы или сомнения?
+                        Приезжайте к нам в офис и мы вам все расскажем.</div>
+                    <p class="address"><img class="contacts__map-marker" src="/img/location.png" alt="метка на карте">г.
+                        Санкт
+                        Петербург, ул. Большая
+                        Конюшенная, 19/8</p>
+                    <p class="tel"><img class="tel-position" src="/img/phone.png" alt="телефон"><a
+                            href="tel:88002000000">8-800-200-00-00</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <footer class="footer">
         <div class="container">
