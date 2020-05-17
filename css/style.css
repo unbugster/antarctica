@@ -49,7 +49,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background: #87ceeb url(../img/mainAntarctica.png) no-repeat center;
+    background: #3375c5 url(../img/mainAntarctica.png) no-repeat center;
     background-size: cover;
 }
 
@@ -185,7 +185,7 @@ body {
     width: 100%;
     height: 562px;
 
-    background: #b2dbeb url(../img/advantages.png) no-repeat center;
+    background: #cfe4fb url(../img/advantages.png) no-repeat center;
     background-size: cover;
 }
 
@@ -315,15 +315,15 @@ body {
     line-height: 150%;
 }
 .cruises__card-img_astoria {
-    background: url(../img/Kruize/astoria.png) no-repeat center;
+    background: #4d7db7 url(../img/Kruize/astoria.png) no-repeat center;
 }
 
 .cruises__card-img_elain {
-    background: url(../img/Kruize/minion-1.png) no-repeat center;
+    background: #7aa4d2 url(../img/Kruize/minion-1.png) no-repeat center;
 }
 
 .cruises__card-img_atlantis {
-    background: url(../img/Kruize/Atlantis.png) no-repeat center;
+    background: #74a2ca url(../img/Kruize/Atlantis.png) no-repeat center;
 }
 
 .cruises__card-img_odissey {
@@ -333,13 +333,13 @@ body {
     background: url(../img/Kruize/olimpia.png) no-repeat center;
 }
 .cruises__card-img_avrora {
-    background: url(../img/Kruize/avrora.png) no-repeat center;
+    background: #6f9ac7 url(../img/Kruize/avrora.png) no-repeat center;
 }
 .cruises__card-img_leonor {
-    background: url(../img/Kruize/leonor.png) no-repeat center;
+    background: #638fc6 url(../img/Kruize/leonor.png) no-repeat center;
 }
 .cruises__card-img_minion {
-    background: url(../img/Kruize/minion-1.png) no-repeat center;
+    background: #7aa4d2 url(../img/Kruize/minion-1.png) no-repeat center;
 }
 
 .cruises__card-text {
@@ -540,7 +540,7 @@ input[type="checkbox"] {
     margin: 0px 100px 0px 0px;
     padding: 0;
 
-    background: #8feba3 url(../img/map.png) no-repeat center;
+    background: #edede3 url(../img/map.png) no-repeat center;
 }
 
 .contacts__map-marker_fixed {
