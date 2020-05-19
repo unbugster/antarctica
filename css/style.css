@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: "Montserrat";
     font-weight: bold;
@@ -34,6 +38,7 @@
 
 body {
     box-sizing: border-box;
+    margin: 0px;
 
     font-family: Montserrat, sans-serif;
     font-size: 16px;
@@ -67,6 +72,7 @@ body {
     justify-content: space-between;
 
     margin: 0px;
+    padding: 0px;
 
     list-style: none;
 }
@@ -298,7 +304,7 @@ body {
     padding: 0px;
 }
 .cruises__card-img {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-end;
 
@@ -310,7 +316,6 @@ body {
 
 .cruises__card-title {
     margin: 0px 0px 15px 0px;
-    padding: 0px;
 
     color: #f9fbfd;
 
@@ -347,19 +352,25 @@ body {
 }
 
 .cruises__card-text {
-    display: none;
+    position: relative;
+
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: sflex-start;
 
     box-sizing: border-box;
     width: 260px;
     min-height: 386px;
-    margin: 0;
-    padding: 25px 0px 20px 25px;
+    margin: 0px;
+    padding: 25px 0px 75px 25px;
 
     background: #011c40;
 }
-.cruises__card-text h4 {
+.cruises__card-text dl {
+    margin: 0px;
+    padding: 0px;
+}
+.cruises__card-text dt {
     margin: 0px;
     padding: 0px;
 
@@ -370,8 +381,8 @@ body {
     line-height: 140%;
 }
 
-.cruises__card-text p {
-    margin: 0px 0px 15px 0px;
+.cruises__card-text dd {
+    margin: 0px 0px 10px 0px;
     padding: 0px;
 
     color: #d8d8d9;
@@ -382,6 +393,9 @@ body {
 }
 
 .cruises__card-link {
+    position: absolute;
+    bottom: 35px;
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -441,7 +455,7 @@ body {
 }
 .reservation__text-title {
     margin: 0px 0px 20px;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
 
     color: #011c40;
 
@@ -492,6 +506,17 @@ input[type="email"] {
     font-weight: normal;
     line-height: 150%;
 }
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover {
+    border: 1px solid rgb(74, 74, 228);
+}
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus {
+    border: 1px solid #29b0d9;
+    background: #ffe;
+}
 .checkbox {
     display: flex;
     align-items: center;
@@ -504,9 +529,17 @@ input[type="email"] {
     font-weight: normal;
     line-height: 130%;
 }
+
+input[type="submit"]:hover {
+    border: 1px solid #025d79;
+}
+input[type="submit"]:focus {
+    border: 1px solid #30c6f3;
+}
 input[type="submit"] {
     width: 303px;
     height: 43px;
+    padding: 0px;
 
     color: #011c40;
     border: none;
@@ -520,7 +553,7 @@ input[type="submit"] {
 input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    margin-right: 5px;
+    margin: 3px;
 
     background: #f9fbfd;
 }
