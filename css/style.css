@@ -57,7 +57,7 @@ body {
     margin: 0px;
     padding: 0px;
 
-    background: #3375c5 url(../img/main-antarctica.png) no-repeat center;
+    background: #3375c5 url(../img/antarctica.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -198,7 +198,7 @@ body {
     width: 100%;
     min-height: 562px;
 
-    background: #cfe4fb url(../img/advantages.png) no-repeat center;
+    background: #cfe4fb url(../img/advantages.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -433,7 +433,7 @@ body {
     width: 100%;
     min-height: 555px;
 
-    background: #e8f0f3 url(../img/reserv.png) no-repeat center;
+    background: #e8f0f3 url(../img/reservation.jpg) no-repeat center;
     background-size: cover;
 }
 .reservation__content {
@@ -583,7 +583,7 @@ input[type="checkbox"] {
     margin: 0px 100px 0px 0px;
     padding: 0px;
 
-    background: #edede3 url(../img/map.png) no-repeat center;
+    background: #edede3 url(../img/map.jpg) no-repeat center;
 }
 
 .contacts__map-marker_fixed {
