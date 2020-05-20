@@ -311,7 +311,7 @@ body {
     padding: 0px;
 }
 .cruises__card-img {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
@@ -361,7 +361,7 @@ body {
 .cruises__card-text {
     position: relative;
 
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: sflex-start;
 
