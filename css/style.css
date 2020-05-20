@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+a:hover {
+    opacity: 0.5;
+}
 @font-face {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
