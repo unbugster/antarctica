@@ -1,12 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-
-a:hover {
-    opacity: 0.5;
-}
 @font-face {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-weight: bold;
     font-style: normal;
 
@@ -14,7 +7,7 @@ a:hover {
 }
 
 @font-face {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-weight: 600;
     font-style: normal;
 
@@ -23,7 +16,7 @@ a:hover {
 }
 
 @font-face {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-weight: 500;
     font-style: normal;
 
@@ -31,12 +24,22 @@ a:hover {
 }
 
 @font-face {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-weight: normal;
     font-style: normal;
 
     src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
         url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+
+    font-family: Montserrat, sans-serif;
+}
+
+a:hover {
+    opacity: 0.5;
 }
 
 body {
@@ -47,8 +50,9 @@ body {
     font-size: 16px;
 }
 .container {
-    max-width: 1160px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0px 20px;
 }
 
 .header {
@@ -66,7 +70,7 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    margin-bottom: 190px;
+    margin-bottom: 192px;
     padding: 35px 0px 0px;
 }
 
@@ -82,7 +86,7 @@ body {
     list-style: none;
 }
 .menu__item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 34px;
 }
 
 .menu__link {
@@ -93,6 +97,8 @@ body {
 
     color: #f9fbfd;
 
+    font-size: 16px;
+    font-weight: 500;
     line-height: 20px;
 }
 
@@ -103,7 +109,7 @@ body {
     padding: 0px 0px 0px 95px;
 }
 .header__title {
-    margin: 0px 0px 14px 0px;
+    margin: 0px 0px 10px 0px;
 
     color: #f9fbfd;
 
@@ -157,7 +163,9 @@ body {
 .social__logo-link:not(:last-child) {
     margin-right: 33px;
 }
-
+.trip__photo {
+    padding-top: 5px;
+}
 .trip__content {
     display: flex;
     align-items: center;
@@ -170,9 +178,10 @@ body {
 .trip__text {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 
     width: 512px;
-    padding: 0px;
+    padding: 6px 0px 0px;
 
     line-height: 150%;
 }
@@ -188,11 +197,12 @@ body {
     font-weight: 600;
 }
 .trip__description {
-    display: flex;
-
-    margin-top: -20px;
+    margin: -25px 0px 0px;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
 .advantages {
     display: flex;
     align-items: center;
@@ -211,6 +221,8 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
+    padding: 30px 0px 0px;
 }
 .advantages__items {
     display: flex;
@@ -605,7 +617,7 @@ input[type="checkbox"] {
 
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px 40px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .contacts__text-title {
     margin: 0px 0px 35px;
