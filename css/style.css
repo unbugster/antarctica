@@ -643,11 +643,11 @@ input[type="checkbox"] {
 
 .contacts__map-marker_fixed {
     position: absolute;
-    right: 281px;
+    right: 293px;
     bottom: 67px;
 }
 
-.contacts__text {
+.contacts__text-address {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -666,32 +666,46 @@ input[type="checkbox"] {
     font-weight: 500;
     line-height: 150%;
 }
-.address {
-    display: flex;
+.contacts__text-address_marker {
+    position: relative;
 
-    margin: 0px 0px 23px 0px;
-    padding: 0px;
-
-    color: #011c40;
-
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 150%;
+    margin-bottom: 21px;
+    padding-left: 28px;
 }
-.tel {
+
+.contacts__text-address_marker::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 18px;
+    height: 22px;
+
+    content: url(../img/location.svg);
+}
+.contacts__text-address_phone {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 28px;
+}
+
+.contacts__text-address_phone::before {
+    position: absolute;
+    top: 0px;
+    left: 0;
+
+    width: 18px;
+    height: 18px;
+
+    content: url(../img/phone.svg);
+}
+
+.contacts__text-address p {
     display: flex;
     align-items: center;
 
     margin: 0px;
-    padding: 0px;
-
-    color: #011c40;
-
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 150%;
-}
-.contacts__map-marker,
-.tel-position {
-    margin-right: 10px;
 }
