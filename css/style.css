@@ -620,6 +620,8 @@ input[type="email"]:focus {
 
     margin: 0px 0px 22px;
 
+    cursor: pointer;
+
     color: #f9fbfd;
 
     font-size: 10px;
@@ -638,6 +640,8 @@ input[type="submit"] {
     width: 303px;
     height: 43px;
     padding: 0px;
+
+    cursor: pointer;
 
     color: #011c40;
     border: none;
