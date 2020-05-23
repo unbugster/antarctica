@@ -153,16 +153,48 @@ body {
 }
 
 .social {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    padding-top: 18px;
+}
+.social-items {
+    position: relative;
 
     margin: 0px;
     padding: 0px;
 }
-.social__logo-link:not(:last-child) {
-    margin-right: 33px;
+
+.social__img-instagram::before {
+    position: absolute;
+    top: 10px;
+    right: 53px;
+
+    width: 20px;
+    height: 20px;
+
+    content: url(../img/instagram.svg);
 }
+
+.social__img-facebook::before {
+    position: absolute;
+    top: 10px;
+    right: 106px;
+
+    width: 11px;
+    height: 28px;
+
+    content: url(../img/facebook.svg);
+}
+
+.social__img-twitter::before {
+    position: absolute;
+    top: 11px;
+    right: 0;
+
+    width: 20px;
+    height: 16px;
+
+    content: url(../img/twitter.svg);
+}
+
 .trip__photo {
     padding-top: 5px;
 }
