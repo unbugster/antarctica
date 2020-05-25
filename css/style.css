@@ -36,9 +36,11 @@
     box-sizing: border-box;
 }
 
+/* 
 a:hover {
     opacity: 0.5;
 }
+*/
 
 body {
     box-sizing: border-box;
@@ -49,6 +51,7 @@ body {
 }
 .container {
     width: 87.85%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 20px;
 }
@@ -71,7 +74,15 @@ body {
     margin-bottom: 192px;
     padding: 35px 0px 0px;
 }
-
+.logo__logo-link:hover {
+    opacity: 0.5;
+}
+.menu__link:hover {
+    opacity: 0.5;
+}
+.cruises__card-link:hover {
+    opacity: 0.5;
+}
 .menu__list {
     display: flex;
     align-content: space-between;
@@ -186,6 +197,9 @@ body {
 
     background: url(../img/facebook.svg) no-repeat;
     background-size: contain;
+}
+.social__img:hover {
+    opacity: 0.5;
 }
 
 .social__img-twitter::before {
@@ -618,6 +632,23 @@ input[type="tel"]:focus,
 input[type="email"]:focus {
     border: 1px solid #29b0d9;
     background: #ffe;
+}
+
+.contacts__address {
+    color: #011c40;
+
+    font-size: 16px;
+    line-height: 150%;
+}
+.contacts__tel {
+    list-style: none;
+
+    text-decoration: none;
+
+    color: #011c40;
+
+    font-size: 16px;
+    line-height: 150%;
 }
 .checkbox {
     display: flex;
