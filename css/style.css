@@ -35,7 +35,7 @@
 * {
     box-sizing: border-box;
 
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ body {
     box-sizing: border-box;
     margin: 0px;
 
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     font-size: 16px;
 }
 .container {
@@ -280,7 +280,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .advantages__item {
     position: relative;
