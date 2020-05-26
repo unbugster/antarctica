@@ -625,12 +625,11 @@ input[type="email"] {
 input[type="text"]:hover,
 input[type="tel"]:hover,
 input[type="email"]:hover {
-    border: 1px solid rgb(74, 74, 228);
+    background: rgb(243, 243, 211);
 }
 input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="email"]:focus {
-    border: 1px solid #29b0d9;
     background: #ffe;
 }
 
