@@ -235,7 +235,7 @@ body {
     justify-content: space-between;
     align-items: center;
     min-height: 541px;
-    padding: 20px 0px 20px;
+    padding: 120px 0px;
 }
 .trip__text {
     display: flex;
