@@ -173,7 +173,7 @@ body {
     justify-content: flex-start;
 
     width: 118px;
-    min-height: 38px;
+    min-height: 44px;
     margin: 0px;
     padding: 5px 0 5px;
 
@@ -198,7 +198,7 @@ body {
     display: block;
 
     width: 11px;
-    height: 28px;
+    height: 20px;
 
     content: "";
 
@@ -233,7 +233,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    align-items: center;
     min-height: 541px;
     padding: 20px 0px 20px;
 }
