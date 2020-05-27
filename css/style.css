@@ -546,9 +546,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    min-height:555px;
     width: 100%;
-    min-height: 555px;
+    padding:50px 0;
    
 
     background: #e8f0f3 url(../img/reservation.jpg) no-repeat center;
@@ -558,35 +558,38 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    padding: 50px 60px;
+    width:100%;
+    min-height: 455px;
+    padding: 0px 60px;
 }
 .reservation__content-form {
     display: flex;
     flex-direction: column;
-
+    
    
     width: 403px;
-    padding: 47px 50px;
-
+    padding: 45px 50px;
+    min-height: 455px;
     background: #011c40;
     box-shadow: 0px 4px 45px rgba(1, 28, 64, 0.15);
 }
+.reservation__content-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   padding:0px;
+}
 .reservation__text-title {
-    margin: 0px 0px 8px;
+    margin: 0px 0px 15px;
     padding: 0px;
 
     color: #011c40;
 
     font-size: 40px;
     font-weight: bold;
-    line-height: 150%;
+    line-height: 115%;
 }
-.reservation__content-text {
-  
-    margin: 0px;
-    padding: 0px;
-}
+
 .reservation__content-text p {
     width: 55%;
     margin: 0px;
@@ -600,7 +603,7 @@ body {
 }
 
 .form-title {
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 26px 0px;
     padding: 0;
 
     color: #f9fbfd;
@@ -697,6 +700,11 @@ input[type="checkbox"] {
 
     background: #f9fbfd;
 }
+
+
+
+
+
 .contacts {
     display: flex;
     align-items: center;
