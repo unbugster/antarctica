@@ -292,7 +292,7 @@ body {
 }
 .advantages__items {
     display: flex;
-    align-items: center;
+    
     flex-wrap: wrap;
     justify-content: center;
 }
