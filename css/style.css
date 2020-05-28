@@ -36,11 +36,7 @@
     box-sizing: border-box;
 }
 
-/* 
-a:hover {
-    opacity: 0.5;
-}
-*/
+
 
 body {
     
@@ -76,6 +72,10 @@ body {
 }
 .logo__logo-link:hover {
     opacity: 0.5;
+}
+.header-logo {
+    flex:1 1 35%;
+    margin-right:20px;
 }
 .menu__link:hover {
     opacity: 0.5;
