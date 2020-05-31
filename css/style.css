@@ -74,7 +74,7 @@ body {
     opacity: 0.5;
 }
 .header-logo {
-    flex:1 1 35%;
+    flex:1 1 auto;
     margin-right:20px;
 }
 .menu__link:hover {
@@ -230,7 +230,7 @@ body {
 }
 .trip__content {
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-between;
     align-items: center;
     min-height: 541px;
@@ -243,7 +243,7 @@ body {
     justify-content: flex-start;
 
     padding: 0px 0px 0px;
-    
+    margin-right: 30px;
 
     line-height: 150%;
 }
@@ -292,14 +292,14 @@ body {
 .advantages__items {
     display: flex;
     
-    flex-wrap: wrap;
+    
     justify-content: center;
 }
 .advantages__item {
     position: relative;
 
    
-    width: 360px;
+    max-width: 360px;
     min-height: 241px;
     margin: 0px 0px 30px 0px;
     padding: 82px 25px 25px 30px;
@@ -742,18 +742,19 @@ input[type="submit"] {
 .contacts {
     width: 100%;
     min-height: 546px;
+
 }
 
 .contacts__content {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding:120px 0px;
+    padding: 120px 45px;
+    
 }
 .contacts__map {
     position: relative;
-
-    min-width: 560px;
+    flex:1 0 auto;
+    width: 560px;
     height: 306px;
     margin: 0px 100px 0px 0px;
     padding: 0px;
@@ -763,8 +764,8 @@ input[type="submit"] {
 }
 
 .contacts__map-marker {
-    width:18px;
-    height:22px;
+    min-width:18px;
+    min-height:22px;
 }
 .contacts__map-marker_fixed {
     position: absolute;
@@ -840,4 +841,97 @@ input[type="submit"] {
     align-items: center;
 
     margin: 0px;
+}
+@media (max-width:1023px) {
+
+.header {
+        min-height:638px;
+    }
+.container {
+        width:95.11%;
+        min-width:0
+    }
+.logo__img {
+    width:38px;
+    height:20px;
+}
+.menu {
+    height:20px;
+}
+.menu__item {
+  
+    font-size:14px;
+    font-weight:500;
+    line-height: 17px;
+}
+.menu__item:not(:last-child) {
+    margin-right: 23px;
+}
+
+.header__title {
+    font-size: 50px;
+    line-height: 61px;
+}
+.header__text {
+font-size: 18px;
+line-height: 22px;
+}
+
+.trip {
+    min-height: 464px;
+}
+
+.trip__content {
+        padding: 100px 0px;
+        align-items: center;
+        justify-content: center;
+        min-height: 264px;
+       
+    }
+
+.trip__text {
+    margin-right: 30px;
+}
+
+.advantages__item {
+    min-width:206px;
+}
+.contacts__map {
+    margin-right:50px;
+
+    
+    min-width: 324px;
+    min-height: 335px;
+    max-width: 324px;
+    max-height: 335px;
+}
+.contacts__map-marker_fixed {
+    right: 178px;
+    bottom: 92px;
+}
+.reservation {
+min-height: 805px;
+padding:120px 0;
+align-items: flex-start;
+}
+.reservation__content {
+    flex-direction: column;
+   
+}
+.reservation__content-text {
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+.reservation__content-text p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 }
