@@ -346,6 +346,7 @@ body {
     padding: 0px;
 }
 .cruises__title {
+    text-align:center;
     margin: 20px 0px -9px;
     padding: 0px;
 }
@@ -387,7 +388,7 @@ body {
 }
 .cruises__content {
     display: flex;
-    align-items: center;
+  
     flex-direction: column;
     justify-content: center;
 
@@ -440,30 +441,39 @@ body {
 }
 .cruises__card-img_astoria {
     background: #4d7db7 url(../img/kruize/astoria.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .cruises__card-img_elain {
     background: #7aa4d2 url(../img/kruize/minion-1.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .cruises__card-img_atlantis {
     background: #74a2ca url(../img/kruize/atlantis.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .cruises__card-img_odissey {
     background: url(../img/kruize/odissei.jpg) no-repeat center;
+    background-size: cover;
+    
 }
 .cruises__card-img_olimpia {
     background: url(../img/kruize/olimpia.jpg) no-repeat center;
+    background-size: cover;
 }
 .cruises__card-img_avrora {
     background: #6f9ac7 url(../img/kruize/avrora.jpg) no-repeat center;
+    background-size: cover;
 }
 .cruises__card-img_leonor {
     background: #638fc6 url(../img/kruize/leonor.jpg) no-repeat center;
+    background-size: cover;
 }
 .cruises__card-img_minion {
     background: #7aa4d2 url(../img/kruize/minion-1.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .cruises__card-text {
@@ -477,7 +487,7 @@ body {
     width: 260px;
     min-height: 386px;
     margin: 0px;
-    padding: 29px 0px 70px 25px;
+    padding: 29px 0px 75px 25px;
 
     background: #011c40;
 }
@@ -501,7 +511,7 @@ body {
 }
 
 .cruises__card-text dd {
-    margin: 0px 0px 14px 0px;
+    margin: 0px;
     padding: 0px;
 
     color: #d8d8d9;
@@ -510,7 +520,9 @@ body {
     font-weight: normal;
     line-height: 140%;
 }
-
+.cruises__card-text dl dd:not(:last-child) {
+    margin: 0px 0px 14px 0px;
+}
 .cruises__card-link {
     position: absolute;
     bottom: 35px;
@@ -545,10 +557,10 @@ body {
 .reservation {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     min-height:555px;
     width: 100%;
-    padding:50px 0;
+    padding:50px 60px;
    
 
     background: #e8f0f3 url(../img/reservation.jpg) no-repeat center;
@@ -560,7 +572,7 @@ body {
     justify-content: space-between;
     width:100%;
     min-height: 455px;
-    padding: 0px 60px;
+    padding: 0px;
 }
 .reservation__content-form {
     display: flex;
@@ -740,6 +752,7 @@ input[type="submit"] {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding:110px 0px;
 }
 .contacts__map {
     position: relative;
@@ -755,15 +768,16 @@ input[type="submit"] {
 
 .contacts__map-marker_fixed {
     position: absolute;
-    right: 293px;
+    right: 292px;
     bottom: 67px;
 }
 
 .contacts__text-address {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    flex:1 1 50%;
    
     margin: 0px;
     padding: 0px 0px 0px 0px;
@@ -787,15 +801,15 @@ input[type="submit"] {
 
 .contacts__text-address_marker::before {
     position: absolute;
-    top: 0;
-    left: 0;
-
+    top: 1px;
+    left: 1px;
+margin:0px;
     width: 18px;
-    height: 22px;
+    min-height: 22px;
 
     content: "";
 
-    background: url(../img/location.svg) no-repeat;
+    background: url(../img/location.svg) no-repeat center;
     background-size: contain;
 }
 .contacts__text-address_phone {
@@ -809,7 +823,7 @@ input[type="submit"] {
 
 .contacts__text-address_phone::before {
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
 
     width: 18px;
