@@ -238,12 +238,12 @@ body {
 }
 .trip__text {
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 46%;
     flex-direction: column;
     justify-content: flex-start;
 
     padding: 0px 0px 0px;
-    padding-right: 65px;
+    
 
     line-height: 150%;
 }
@@ -781,7 +781,7 @@ input[type="submit"] {
 .contacts__text-address_marker {
     position: relative;
 
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     padding-left: 28px;
 }
 
