@@ -521,7 +521,7 @@ body {
     line-height: 140%;
 }
 .cruises__card-text dl dd:not(:last-child) {
-    margin: 0px 0px 14px 0px;
+    margin: 0px 0px 13px 0px;
 }
 .cruises__card-link {
     position: absolute;
@@ -560,7 +560,7 @@ body {
     
     min-height:555px;
     width: 100%;
-    padding:50px 60px;
+    padding:50px 67px;
    
 
     background: #e8f0f3 url(../img/reservation.jpg) no-repeat center;
@@ -748,7 +748,7 @@ input[type="submit"] {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding:110px 0px;
+    padding:120px 0px;
 }
 .contacts__map {
     position: relative;
@@ -762,6 +762,10 @@ input[type="submit"] {
     background-size: cover;
 }
 
+.contacts__map-marker {
+    width:18px;
+    height:22px;
+}
 .contacts__map-marker_fixed {
     position: absolute;
     right: 292px;
@@ -797,9 +801,9 @@ input[type="submit"] {
 
 .contacts__text-address_marker::before {
     position: absolute;
-    top: 1px;
-    left: 1px;
-    margin: 0px;
+    top: 0px;
+    left: 0px;
+    margin:0px;
     width: 18px;
     min-height: 22px;
 
