@@ -944,7 +944,7 @@ line-height: 22px;
     padding: 69px 6px 25px 20px;
 }
 
-}
+
 .advantages__item:not(:last-child) {
     margin-right: 30px;
 }
@@ -1068,24 +1068,5 @@ align-items: flex-start;
     padding: 36px 0px;
 }
 
-
 }
 
-@media (max-width:767px) {
-
-    .header {
-        min-height: 500px;
-
-    }
-.header__top {
-    margin-bottom: 155px;
-    padding-top:28px;
-}
-.container {
-    width:96.88%;
-    min-width:0;
-    padding: 0 10px;
-}
-
-
-}
