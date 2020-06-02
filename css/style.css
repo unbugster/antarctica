@@ -868,6 +868,7 @@ input[type="submit"] {
 
 .header {
         min-height:638px;
+        background: #3375c5 url(../img/antarctica-med.jpg) no-repeat center;
 }
 .header__top {
     padding-top:28px;
