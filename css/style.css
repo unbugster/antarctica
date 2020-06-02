@@ -39,7 +39,7 @@
 
 
 body {
-    
+    max-width: 1366px;
     margin: 0px;
 
     font-family: Montserrat, Arial, sans-serif;
@@ -762,7 +762,7 @@ input[type="submit"] {
 .contacts__map {
     position: relative;
     flex:1 0 auto;
-    width: 560px;
+    max-width: 560px;
     height: 306px;
     margin: 0px 100px 0px 0px;
     padding: 0px;
@@ -1299,6 +1299,7 @@ min-height: 703px;
 }
 .contacts__text-address {
     margin-bottom:19px;
+    max-width: 290px;
 }
 .contacts__text-address_phone {
     margin-bottom:20px;
