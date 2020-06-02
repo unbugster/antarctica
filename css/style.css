@@ -875,13 +875,17 @@ input[type="submit"] {
         padding-right: 22px;
 }
 
+
+.header__top .menu {
+    display: none;
+}
 .header {
         min-height:638px;
         background-image: url(../img/antarctica-med.jpg);
 }
 
 .header__top {
-    padding-top:28px;
+    
     margin-bottom:217px;
 }
 
@@ -897,7 +901,7 @@ input[type="submit"] {
     height:20px;
 }
 .menu {
-    height:20px;
+min-height:20px;
 }
 .menu__link {
     font-size:14px;
@@ -1146,6 +1150,12 @@ background-image: url(../img/reservation-med.jpg);
     padding:0 10px;
 }
 
+.trip__img {
+    min-width: 290px;
+    min-height: 186px;
+    flex:1 1 290px;
+    margin-bottom: 7px;
+}
 .logo__img {
     width:42px;
     height:22px;
@@ -1153,22 +1163,36 @@ background-image: url(../img/reservation-med.jpg);
 
 .trip__content {
     flex-wrap: wrap;
-    padding:65px 0;
+    padding:54px 0;
 }
 
+.trip__content {
+    flex:1 1 290px;
+}
+.trip__text {
+    margin-right: 0;
+}
 .title {
     font-size: 24px;
     line-height: 150%;
+    margin-bottom: 40px;
 }
-
+.trip__title {
+    margin-bottom:58px;
+}
 .trip__description {
     min-width:290px;
     margin-bottom:35px;
 }
 
+.advantages {
+    padding-top:35px;
+    padding-bottom: 35px;
+}
 .advantages__items {
     flex-direction: column;
     align-items: center;
+    margin-top: -20px;
 }
 .advantages__item {
     max-width:290px;
@@ -1176,17 +1200,22 @@ background-image: url(../img/reservation-med.jpg);
     margin-bottom: 30px;
     min-height: auto;
     min-width:auto; 
+    padding: 69px 15px 25px 20px;
 }
 
 .advantages__item:not(:last-child) {
     margin-right: 0px;
 }
-
-
+.advantages__item-title_ticks-narrow {
+    padding-right: 38px;
+}
+.advantages__item-title_speedboat-narrow {
+    padding-right:54px;
+}
 
 
 .cruises {
-    padding: 65px 0;
+    padding: 35px 0;
 }
 
 
@@ -1198,7 +1227,7 @@ background-image: url(../img/reservation-med.jpg);
 .cruises__card-img {
     width:270px;
     min-height: 386px;
-    padding-bottom:14px;
+    padding-bottom:4px;
     padding-left:25px;
 }
 .cruises__card-text {
@@ -1215,10 +1244,14 @@ background-image: url(../img/reservation-med.jpg);
 .reservation {
     min-height:760px;
     background-image: url(../img/reservation-sm.jpg);
+    padding:59px 0;
 }
 .reservation__text-title {
     font-size: 24px;
     line-height: 130%;
+}
+.reservation__content-text {
+    margin-bottom: 35px;
 }
 .reservation__content-text p {
    font-size: 16px;
@@ -1248,21 +1281,41 @@ input[type="email"] {
 input[type="submit"] { 
 width:230px;
 }
+.check {
+    margin-bottom: 25px;
+}
+
+
+
 
 .contacts__content {
     flex-direction: column-reverse;
-    padding:65px 0;
+    padding:57px 0;
+    padding-bottom:63px;
+min-height: 703px;
 }
-
+.contacts__text-title {
+    margin: 0px 0px 29px;
+}
+.contacts__text-address {
+    margin-bottom:19px;
+}
 .contacts__text-address_phone {
     margin-bottom:20px;
 }
 
 .contacts__map {
     background-image: url(../img/map-sm.jpg);
-margin:0;
+    margin:0;
+    min-width:290px;
+    min-height:316px;
+    width:100%;
+    flex:1 1 290px;
 }
-
+.contacts__map-marker_fixed {
+    right: 161px;
+    bottom: 73px;
+}
 .footer {
     min-height: 283px;
     padding:40px 0;
@@ -1270,18 +1323,24 @@ margin:0;
 
 .footer__content {
  
-
+align-items: flex-start;
     flex-direction: column;
 }
 .footer__leftpart {
     flex-direction: column;
+    align-items: flex-start;
 }
 .menu__list {
     flex-direction: column;
 }
-
-
-
-
+.footer__menu-link {
+    line-height: 15px;
+}
+.footer__logo {
+    margin-bottom: 20px;
+}
+.menu__item {
+    margin-bottom:13px;
+}
 
 }
