@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <!--  <link rel="stylesheet" type="text/css" href="css/style.css">-->
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Круизы в Антарктиду</title>
 </head>
 
@@ -37,8 +37,8 @@
                 </nav>
             </div>
             <div class="header__content">
-                <h1 class="header__title">Круизы в Антарктику </h1>
-                <p class="header__text">Волшебный мир айсбергов и пингвинов</p>
+                <h1 class="header__title">Круизы в&nbsp;Антарктику </h1>
+                <p class="header__text">Волшебный мир айсбергов&nbsp;и&nbsp;пингвинов</p>
             </div>
         </div>
     </header>
@@ -56,7 +56,11 @@
                     </p>
                 </div>
                 <div class="trip__photo">
-                    <img class="trip__img" src="img/penguins.jpg" alt="Пингвины" width="560" height="301">
+                    <picture>
+                        <source media="(max-width: 1023px)" srcset="img/penguins-med.jpg">
+                        <source media="(max-width: 767px)" srcset="img/penguins-sm.jpg">
+                        <img class="trip__img" src="img/penguins.jpg" alt="Пингвины" width="560" height="301">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -73,25 +77,29 @@
                         <div class="advantages__img-boat">
                             <h3 class="advantages__item-title">Небольшой круизный лайнер</h3>
                             <p class="advantages__item-text">Круизный лайнер, рассчитанный всего лишь на 300 гостей,
-                                поможет избежать шума и очередей и даст возможность насладиться видами и природой.</p>
+                                поможет избежать шума&nbsp;и очередей и&nbsp;даст возможность насладиться видами
+                                и&nbsp;природой.
+                            </p>
                         </div>
                     </li>
                     <li class="advantages__item">
                         <div class="advantages__img-ticks">
                             <h3 class="advantages__item-title">Система все&nbsp;включено</h3>
-                            <p class="advantages__item-text">Все наши круизы работают
-                                по системе&nbsp;“Все Включено”. Великолепные блюда и безлимитный бар доступны
+                            <p class="advantages__item-text advantages__item-text_ticks-narrow">Все наши круизы работают
+                                по&nbsp;системе “Все Включено”. Великолепные блюда и&nbsp;безлимитный бар доступны
                                 для
-                                вас 24 часа.
+                                вас 24&nbsp;часа.
                             </p>
                         </div>
                     </li>
                     <li class="advantages__item">
                         <div class="advantages__img-speedboat">
                             <h3 class="advantages__item-title">Экскурсионные туры на Zodiac</h3>
-                            <p class="advantages__item-text">Экскурсионные туры к берегам Антарктиды совершаются
-                                на&nbsp;оборудованных лодках типа Zodiac&nbsp;в&nbsp;сопровождении
-                                опытных&nbsp;экскурсоводов.
+                            <p class="advantages__item-text advantages__item-text_speedboat-narrow">Экскурсионные туры
+                                к&nbsp;берегам
+                                Антарктиды совершаются
+                                на&nbsp;оборудованных лодках типа Zodiac в&nbsp;сопровождении
+                                опытных экскурсоводов.
                             </p>
                         </div>
                     </li>
@@ -312,11 +320,11 @@
             <div class="reservation__content">
                 <div class="reservation__content-text">
                     <h2 class="reservation__text-title">Раннее бронирование</h2>
-                    <p>Забронируйте тур за 3-6 месяцев
+                    <p>Забронируйте тур за&nbsp;3&nbsp;-6&nbsp;месяцев
                         до&nbsp;даты выезда и сэкономьте до 50%</p>
                 </div>
                 <form class="reservation__content-form">
-                    <p class="form-title">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+                    <p class="form-title">Оставьте заявку и&nbsp;мы&nbsp;свяжемся с вами в ближайшее время</p>
                     <input type="text" name="name" placeholder="Валерия">
                     <input type="tel" name="tel" required pattern="8[0-9]{,10}" placeholder="89236889975">
                     <input type="email" name="email" placeholder="grishaewa.lera@gmail.com">
@@ -325,7 +333,7 @@
                         <input class="check__input" type="checkbox" name="confirm" checked required><span
                             class="check__box"></span>
                         Я согласен на
-                        обработку моих персональных данных
+                        обработку моих&nbsp;персональных данных
                     </label>
 
                     <input type="submit" value="Оставить заявку">
@@ -344,7 +352,7 @@
                 </div>
                 <div class="contacts__text-address">
                     <div class="contacts__text-title">У вас ещё остались вопросы или сомнения?
-                        Приезжайте&nbsp;к&nbsp;нам в&nbsp;офис и мы вам все расскажем.</div>
+                        Приезжайте к&nbsp;нам в&nbsp;офис и мы вам все расскажем.</div>
                     <div class="contacts__text-address_marker">
                         <p class="contacts__address">г. Санкт Петербург, ул.&nbsp;Большая&nbsp;Конюшенная, 19/8</p>
                     </div>

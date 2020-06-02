@@ -382,6 +382,13 @@ body {
     font-weight: normal;
     line-height: 140%;
 }
+
+.advantages__item-text_speedboat-narrow {
+    padding-right:43px;
+}
+.advantages__item-text_ticks-narrow {
+    padding-right:10px;
+}
 .cruises {
     min-height: 1123px;
     padding: 90px 0px;
@@ -624,6 +631,7 @@ body {
     font-weight: 500;
     line-height: 150%;
 }
+.reservation__content-form
 input[type="text"],
 input[type="tel"],
 input[type="email"] {
@@ -653,7 +661,7 @@ input[type="email"]:focus {
 
 .check {
     
-    padding-left: 2em;
+    padding-left: 2.2em;
 }
 .check__input {
     position: absolute;
@@ -664,7 +672,7 @@ input[type="email"]:focus {
 }
 .check__box {
     position: absolute;
-    margin-left:-2em;
+    margin-left:-2.2em;
     width: 1.8em;
     height: 1.8em;
     background-color: #f9fbfd;
@@ -862,18 +870,21 @@ input[type="submit"] {
 .title {
     font-size: 26px;
 }
+
 .trip__title {
         padding-right: 22px;
-    }
+}
 
 .header {
         min-height:638px;
-        background: #3375c5 url(../img/antarctica-med.jpg) no-repeat center;
+        background-image: url(../img/antarctica-med.jpg);
 }
+
 .header__top {
     padding-top:28px;
     margin-bottom:217px;
 }
+
 .header__content {
     padding-left:0;
 }
@@ -889,7 +900,6 @@ input[type="submit"] {
     height:20px;
 }
 .menu__link {
-  
     font-size:14px;
     font-weight:500;
     line-height: 17px;
@@ -915,11 +925,10 @@ line-height: 22px;
 }
 
 .trip__content {
-        padding: 88px 0px;
+        padding: 90px 0px;
         align-items: center;
         justify-content: center;
         min-height: 264px;
-       
     }
 
 .trip__text {
@@ -932,20 +941,24 @@ line-height: 22px;
 .trip__description {
     min-width:324px;
     font-size: 16px;
-    margin-top:-44px;
+    margin-top:-45px;
 }
 .advantages {
     padding-top:71px;
     padding-bottom: 80px;
+
+    background-image: url(../img/advantages-med.jpg);
 }
 .advantages__item {
     min-width:206px;
     min-height: 310px;   
     margin-bottom:17px;
-    padding: 69px 6px 25px 20px;
+    padding: 69px 12px 25px 20px;
 }
 
-
+.advantages__item-text_speedboat-narrow {
+    padding-right:0;
+}
 .advantages__item:not(:last-child) {
     margin-right: 30px;
 }
@@ -956,24 +969,27 @@ line-height: 22px;
 .contacts__map {
     margin-right:30px;
 
-    
+    background-image: url(../img/map-med.jpg);
     min-width: 324px;
     min-height: 335px;
     max-width: 324px;
     max-height: 335px;
 }
 .contacts__map-marker_fixed {
-    right: 178px;
-    bottom: 92px;
+    right: 198px;
+    bottom: 97px;
+}
+.contacts__text-title {
+    margin: 0px 0px 25px;
 }
 .reservation {
 min-height: 805px;
 padding:90px 0;
 align-items: flex-start;
+background-image: url(../img/reservation-med.jpg);
 }
 .reservation__content {
     flex-direction: column;
-   
 }
 .reservation__content-text {
     align-items: center;
@@ -1012,8 +1028,6 @@ align-items: flex-start;
 .social {
     max-width:90px;
 }
-
-
 
 .advantages__img-boat::before {
     top: 24px;
@@ -1068,6 +1082,206 @@ align-items: flex-start;
     min-height: 120px;
     padding: 36px 0px;
 }
+.cruises__card-img_astoria {
+    background-image: url(../img/kruize/astoria-med.jpg);
+    
+}
+
+.cruises__card-img_elain {
+    background-image: url(../img/kruize/minion-1-med.jpg);
+    
+}
+
+.cruises__card-img_atlantis {
+    background-image:  url(../img/kruize/atlantis-med.jpg) ;   
+}
+
+.cruises__card-img_odissey {
+    background-image: url(../img/kruize/odissei-med.jpg);
+    
+    
+}
+.cruises__card-img_olimpia {
+    background-image: url(../img/kruize/olimpia-med.jpg);
+  
+}
+.cruises__card-img_avrora {
+    background-image: url(../img/kruize/avrora-med.jpg) ;
+    
+}
+.cruises__card-img_leonor {
+    background-image:  url(../img/kruize/leonor-med.jpg);
+   
+}
+.cruises__card-img_minion {
+    background-image:  url(../img/kruize/minion-1-med.jpg) ;
+    
+}
+
 
 }
 
+@media (max-width:767px) {
+
+.header {
+    min-height:500px;
+   
+    background-image: url(../img/antarctica-sm.jpg);
+}
+.header__top {
+    padding-top: 20px;
+    margin-bottom: 130px;
+}
+.header__title {
+    font-size: 36px;
+    line-height: 125%;
+}
+.header__text {
+    font-size: 16px;
+    line-height: 140%;
+}
+.container {
+    width:96.88%;
+    min-width:0;
+    padding:0 10px;
+}
+
+.logo__img {
+    width:42px;
+    height:22px;
+}
+
+.trip__content {
+    flex-wrap: wrap;
+    padding:65px 0;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.trip__description {
+    min-width:290px;
+    margin-bottom:35px;
+}
+
+.advantages__items {
+    flex-direction: column;
+    align-items: center;
+}
+.advantages__item {
+    max-width:290px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    min-height: auto;
+    min-width:auto; 
+}
+
+.advantages__item:not(:last-child) {
+    margin-right: 0px;
+}
+
+
+
+
+.cruises {
+    padding: 65px 0;
+}
+
+
+.cruises__cards-item {
+    width:270px;
+    min-height: 386px;
+}
+
+.cruises__card-img {
+    width:270px;
+    min-height: 386px;
+    padding-bottom:14px;
+    padding-left:25px;
+}
+.cruises__card-text {
+    width:270px;
+    min-height: 386px;
+    padding: 29px 35px 75px 25px;
+
+}
+.cruises__card-link {
+    width: 220px;
+    height: 40px;
+}
+
+.reservation {
+    min-height:760px;
+    background-image: url(../img/reservation-sm.jpg);
+}
+.reservation__text-title {
+    font-size: 24px;
+    line-height: 130%;
+}
+.reservation__content-text p {
+   font-size: 16px;
+   line-height: 140%;
+    width:262px;
+}
+
+.reservation__content-form {
+    width:290px;
+    min-height: 460px;
+    padding:35px 30px;
+}
+
+.form-title {
+    line-height: 140%;
+    text-align: center;
+}
+.reservation__content-form
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width:230px;
+    min-height: 43px;
+    margin-bottom: 20px;
+}
+.reservation__content-form 
+input[type="submit"] { 
+width:230px;
+}
+
+.contacts__content {
+    flex-direction: column-reverse;
+    padding:65px 0;
+}
+
+.contacts__text-address_phone {
+    margin-bottom:20px;
+}
+
+.contacts__map {
+    background-image: url(../img/map-sm.jpg);
+margin:0;
+}
+
+.footer {
+    min-height: 283px;
+    padding:40px 0;
+}
+
+.footer__content {
+ 
+
+    flex-direction: column;
+}
+.footer__leftpart {
+    flex-direction: column;
+}
+.menu__list {
+    flex-direction: column;
+}
+
+
+
+
+
+}
