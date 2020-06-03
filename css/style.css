@@ -39,7 +39,7 @@
 
 
 body {
-    max-width: 1366px;
+    
     margin: 0px;
 
     font-family: Montserrat, Arial, sans-serif;
@@ -384,10 +384,10 @@ body {
 }
 
 .advantages__item-text_speedboat-narrow {
-    padding-right:43px;
+    padding-right:55px;
 }
 .advantages__item-text_ticks-narrow {
-    padding-right:10px;
+    padding-right:20px;
 }
 .cruises {
     min-height: 1123px;
@@ -756,12 +756,12 @@ input[type="submit"] {
 .contacts__content {
     display: flex;
     align-items: center;
-    padding: 120px 45px;
+    padding: 120px 0px;
     
 }
 .contacts__map {
     position: relative;
-    flex:1 0 auto;
+    flex:1 0 560px;
     max-width: 560px;
     height: 306px;
     margin: 0px 100px 0px 0px;
@@ -962,6 +962,9 @@ line-height: 22px;
 
 .advantages__item-text_speedboat-narrow {
     padding-right:0;
+}
+.advantages__item-text_ticks-narrow {
+    padding-right: 10px;
 }
 .advantages__item:not(:last-child) {
     margin-right: 30px;
@@ -1212,8 +1215,13 @@ background-image: url(../img/reservation-med.jpg);
 .advantages__item-title_speedboat-narrow {
     padding-right:54px;
 }
+.advantages__item-text_speedboat-narrow {
+    padding-right: 23px;
+}
 
-
+.advantages__item-text_speedboat-indent{
+    margin-right:4px;
+}
 .cruises {
     padding: 35px 0;
 }
