@@ -259,8 +259,11 @@ body {
     font-weight: 600;
     line-height: 150%;
 }
+.trip__title {
+    margin-bottom:22px;
+}
 .trip__description {
-    margin: -35px 0px 0px;
+    margin:0px;
 }
 
 .capitalize {
@@ -422,8 +425,9 @@ body {
    
     width: 260px;
     min-height: 386px;
-    margin: 0px;
-    margin-bottom: 30px;
+    margin: 0 2.5px 30px;
+
+  
     padding: 0px;
 }
 .cruises__card-img {
@@ -599,7 +603,7 @@ body {
    padding:0px;
 }
 .reservation__text-title {
-    margin: 0px 0px 15px;
+    margin: 0px 15px 15px 15px;
     padding: 0px;
 
     color: #011c40;
@@ -872,13 +876,12 @@ input[type="submit"] {
 }
 
 .trip__title {
-        padding-right: 22px;
+        padding-right:23px;
+        margin-bottom:12px;
 }
 
 
-.header__top .menu {
-    display: none;
-}
+
 .header {
         min-height:638px;
         background-image: url(../img/antarctica-med.jpg);
@@ -887,6 +890,7 @@ input[type="submit"] {
 .header__top {
     
     margin-bottom:217px;
+    padding-top:27px;
 }
 
 .header__content {
@@ -945,7 +949,7 @@ line-height: 22px;
 .trip__description {
     min-width:324px;
     font-size: 16px;
-    margin-top:-45px;
+   
 }
 .advantages {
     padding-top:71px;
@@ -1130,6 +1134,9 @@ background-image: url(../img/reservation-med.jpg);
 
 @media (max-width:767px) {
 
+    .header__top .menu {
+        display: none;
+    }
 .header {
     min-height:500px;
    
@@ -1174,6 +1181,7 @@ background-image: url(../img/reservation-med.jpg);
 }
 .trip__text {
     margin-right: 0;
+    flex-basis: 100%;
 }
 .title {
     font-size: 24px;
@@ -1186,6 +1194,7 @@ background-image: url(../img/reservation-med.jpg);
 .trip__description {
     min-width:290px;
     margin-bottom:35px;
+    padding-right: 10px;
 }
 
 .advantages {
@@ -1257,6 +1266,7 @@ background-image: url(../img/reservation-med.jpg);
 .reservation__text-title {
     font-size: 24px;
     line-height: 130%;
+    margin-right:0px;
 }
 .reservation__content-text {
     margin-bottom: 35px;
