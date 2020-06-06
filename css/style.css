@@ -1209,8 +1209,8 @@ background-image: url(../img/reservation-med.jpg);
       font-weight: 600;
       text-decoration: none;
     }
-    .menu__link_burger:hover {
-      background-color: #CFD8DC;
+    .menu__link_burger a:hover {
+opacity: 0.5;
     }
     
     .header .header__menu_item:nth-child(2) {
