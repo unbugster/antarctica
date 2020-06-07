@@ -607,7 +607,7 @@ body {
    padding:0px;
 }
 .reservation__text-title {
-    margin: 0px 15px 15px 15px;
+    margin: 0px 0px 15px 0px;
     padding: 0px;
 
     color: #011c40;
@@ -1018,6 +1018,7 @@ background-image: url(../img/reservation-med.jpg);
 .reservation__text-title {
     font-size: 34px;
     text-align: center;
+        margin: 0px 15px 15px 15px;
 }
 .social__img-twitter::before {
     width: 16px;
