@@ -1248,7 +1248,6 @@ opacity: 0.5;
     .menu__toggle:checked ~ .header__top .header-logo .logo__link{
        background: url(../img/black-logo.svg) no-repeat center;
        background-size: contain;
-       
        z-index:5;
     }
     .menu__toggle:checked ~ .header__top .header-logo .logo__link img {
